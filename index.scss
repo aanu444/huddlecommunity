@@ -149,6 +149,7 @@ div{
                 margin:0 auto;
                 border-radius: 20px;
                 box-shadow: 5px 10px 28px -10px #888888;
+                transition: padding 2s;
 
               
 
@@ -183,6 +184,10 @@ div{
                         margin:0 auto;
                     }
                 }
+            }
+
+            .inner-divs:hover{
+                padding:20px;
             }
         }
 

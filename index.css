@@ -145,6 +145,8 @@ div {
   border-radius: 20px;
   -webkit-box-shadow: 5px 10px 28px -10px #888888;
           box-shadow: 5px 10px 28px -10px #888888;
+  -webkit-transition: padding 2s;
+  transition: padding 2s;
 }
 
 .container main section .inner-divs .inner-text, .container main section .inner-divs .inner-img {
@@ -175,6 +177,10 @@ div {
   width: 60%;
   display: block;
   margin: 0 auto;
+}
+
+.container main section .inner-divs:hover {
+  padding: 20px;
 }
 
 .container main .first-section {
